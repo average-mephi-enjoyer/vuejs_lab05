@@ -17,9 +17,10 @@ function increment() {
 
 <style scoped>
 .clicker {
-  margin: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  display: inline-block;
+    width: 90px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
 }
 </style>
