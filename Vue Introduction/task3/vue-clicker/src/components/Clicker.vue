@@ -1,7 +1,7 @@
 <template>
   <div class="clicker">
     <p>Очки: {{ count }}</p>
-    <button @click="increment">Тык</button>
+    <button @click="increment">Кликнуть</button>
   </div>
 </template>
 
