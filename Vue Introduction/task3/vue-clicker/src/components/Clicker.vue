@@ -15,8 +15,12 @@ let prop = defineProps({
     default: 1
   }
 })
+let emit = defineEmits(['button-clicked'])
 let count = ref(0)
-function increment() { count.value += prop.amount }
+function increment() { 
+    count.value += prop.amount
+    emit('button-clicked')
+}
 </script>
 
 <style scoped>

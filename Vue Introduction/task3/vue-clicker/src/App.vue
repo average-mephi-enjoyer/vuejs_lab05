@@ -6,7 +6,8 @@
         <Clicker v-for="n in 90" :key="'def' + n" :amount="67" />
         <Clicker :key="'custom1'" :amount="52"><strong>Тык</strong></Clicker>
         <Clicker :key="'custom2'" :amount="53"><span style="font-size: 20px;">🚀</span></Clicker>
-        <Clicker v-for="n in 8" :key="'extra' + n" :amount="552"><em>Нажми</em></Clicker>
+        <Clicker v-for="n in 7" :key="'extra' + n" :amount="552"><em>Нажми</em></Clicker>
+        <Clicker @button-clicked="console.log('Клик!')" />
       </div>
     </div>
 </template>
