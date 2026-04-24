@@ -7,9 +7,11 @@
     "dev:local": "vite --mode localdev",
     "dev:dev": "vite --mode dev",
     "dev:prod": "vite --mode prod",
+
     "build:local": "vite build --mode localdev",
     "build:dev": "vite build --mode dev",
     "build:prod": "vite build --mode prod",
+    
     "preview": "vite preview"
 },
   "devDependencies": {
